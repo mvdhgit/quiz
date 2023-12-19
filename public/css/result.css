@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #bbbbbb;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .score {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .score p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .button {
+    text-align: center;
+  }
+  
+  .button a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+  
+  .button a:hover {
+    background-color: #45a049;
+  }
+  

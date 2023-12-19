@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #bbbbbb;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 800px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+    text-align: left;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.progress {
+    margin-top: 20px;
+    height: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #28a745;
+    border-radius: 5px;
+}
